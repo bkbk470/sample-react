@@ -6,7 +6,13 @@ import "./App.css";
  * Uses Tailwind CSS for styling
  * Tailwind file is imported in App.css
  */
-
+<script 
+      id="Cookiebot" 
+      src="https://consent.cookiebot.com/uc.js" 
+      data-cbid="efe52a23-4acb-4592-bcd8-a742469d3849" 
+      data-blockingmode="auto" 
+      type="text/javascript"
+      ></script>
 export default function App() {
   return (
     <div className="app min-h-screen text-blue-200 flex items-center flex-col p-20">
@@ -25,18 +31,18 @@ export default function App() {
       </div>
 
       <h1 className="text-2xl lg:text-5xl mb-10 text-right">
-        Welcome to Your New React App{" "}
-        <span className="block text-lg text-blue-400">on DigitalOcean</span>
+        ...{" "}
+        <span className="block text-lg text-blue-400"></span>
       </h1>
 
       <div className="grid grid-cols-2 grid-rows-2 gap-4">
         <Button
-          text="DigitalOcean Docs"
-          url="https://www.digitalocean.com/docs/app-platform"
+          text="W"
+          url="https://www.streetcloth.com"
         />
         <Button
-          text="DigitalOcean Dashboard"
-          url="https://cloud.digitalocean.com/apps"
+          text="N"
+          url="https://streetcloth.com"
         />
       </div>
     </div>
